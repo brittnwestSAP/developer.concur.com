@@ -29,7 +29,9 @@ This API supports POST only.
 ## Prerequisites
 
 1. [Obtain a client ID, secret and sandbox environment](/manage-apps/partner-applications.html) if you don't already have one.
-2. Obtain your [Source partner](#sourcePartner) information. This will be provided along with your application credentials.
+2. Obtain your [Source partner](#sourcePartner) information. 
+   * As a 3rd party, this will be provided by your technical enablement contact.
+   * For web service customers, please submit a support ticket to request access.
 3. Read the [Getting Started](/api-reference/authentication/getting-started.html) section of [Authentication API](/api-reference/authentication/apidoc.html).
 This API supports [Client Credentials Grant](/api-reference/authentication/apidoc.html#client_credentials) only. Your sandbox will be configured to accept posts from your application.
 
@@ -123,7 +125,7 @@ visitorID|5|-|This corresponds to the user ID provided in the [Users](#users) sc
 
 ### Source partner
 
-This information will be provided to you along with your client ID and secret.
+This information will be provided to you along with your client ID and secret. Please see the [Prerequisites](#prerequisites) to obtain this information.
 
 Property Name|Values/Length|Type|Description
 ---|---|---|---
